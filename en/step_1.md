@@ -18,7 +18,7 @@ Type in some sample text in the **sentence** box:
 
 There are many different search options to choose from. You can search by category (fallback font families), language or different font properties: 
 
-![A screenshot of the Google fonts search page. The search categories are highlighted.](images/search-options.PNG)
+![A screenshot of the Google fonts search page. The search categories are highlighted.](images/search-options.png)
 
 --- task ---
 
@@ -34,7 +34,7 @@ You can scroll down until you find a font you like or, if you know the name of t
 
 Click on the card for the font you want to use:
 
-![A screenshot of the Bangers card.](images/bangers-card.PNG)
+![A screenshot of the Bangers card.](images/bangers-card.png)
 
 --- /task ---
 
