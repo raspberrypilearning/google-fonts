@@ -24,7 +24,7 @@ Click on the card for the font you want to use.
 
 Click on the 'Select this style' button.
 
-![The 'Select this style' link has been highlighted.](images/select-style.png)
+![The 'Select this style' button has been highlighted.](images/select-style.png)
 
 **Note:** A pane will pop in from the side to give you the code that you need.
 
@@ -53,7 +53,7 @@ line_highlights: 16-18
 
 You have imported the fonts that you need from the Google Font library. You now need to add in the correct CSS so that the web browser knows when to use this font. 
 
-Go back to the Google Font library webpage and copy the CSS code. You only need the code **after** `font-family`. 
+Go back to the Google Font library webpage and copy the CSS code. You only need the code **after** `font-family:` 
 
 ![The CSS code ''Bangers', cursive;' is highlighted on the Google Font library site.](images/css.png)
 
