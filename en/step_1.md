@@ -12,7 +12,7 @@ There are many different search options to choose from. You can search by catego
 
 ![The Google Fonts search page. The search categories are highlighted.](images/search-options.png)
 
-You can scroll down until you find a font you like. If you know the name of the font you want to use, you can type it in the main search box. 
+Scroll down until you find a font you like. If you know the name of the font you want to use, type it in the main search box. 
 
 !['Bangers' has been typed into the search box.](images/bangers.png)
 
