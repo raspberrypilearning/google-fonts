@@ -22,11 +22,11 @@ Click on the card for the font you want to use.
 
 ![The Bangers card.](images/bangers-card.png)
 
-Click on the `Select this style` link.
+Click on the 'Select this style' button.
 
 ![The 'Select this style' link has been highlighted.](images/select-style.png)
 
-**Note:** A pane will pop in from the side that gives you the code that you need.
+**Note:** A pane will pop in from the side to give you the code that you need.
 
 Highlight the HTML text and right-click and select copy (tap and hold) to copy the HTML code.
 
