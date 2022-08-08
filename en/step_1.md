@@ -1,40 +1,40 @@
-Google has a free online font library with over 1400 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right one. It then gives you the **HTML** and **CSS** code that you need to **import** the font into your website. 
+Google has a free online font library with over 1400 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right font. Google Fonts then gives you the **HTML** and **CSS** code that you need to **import** the font into your website. 
 
 Open [fonts.google.com](https://fonts.google.com/){:target="_blank"}. It will open in a new tab. 
 
-Type in some sample text in the **sentence** box:
+Type in some sample text in the **sentence** box.
 
-![A screenshot of the Google fonts search page. The words, Lapsis Sarawack have been placed in the sentence box.](images/custom.png)
+![The Google Fonts search page. The words 'Lapis Sarawack' are in the sentence box.](images/custom.png)
 
-**Note** how the examples below now show your sample text. You can see how your words will look in all of the fonts available. 
+**Notice** how the examples below now show your sample text. You can see how your words look in all of the fonts available. 
 
-There are many different search options to choose from. You can search by category (fallback font families), language or different font properties: 
+There are many different search options to choose from. You can search by category (fallback font families), language, or different font properties. 
 
-![A screenshot of the Google fonts search page. The search categories are highlighted.](images/search-options.png)
+![The Google Fonts search page. The search categories are highlighted.](images/search-options.png)
 
-You can scroll down until you find a font you like or, if you know the name of the font, you can type it in the main search box: 
+You can scroll down until you find a font you like. If you know the name of the font you want to use, you can type it in the main search box. 
 
-!['Bangers' is typed into the search box.](images/bangers.png)
+!['Bangers' has been typed into the search box.](images/bangers.png)
 
-**Note** that you can now see an example of the Bangers font being applied to the sample text. 
+**Notice** that you can now see an example of the Bangers font that has been applied to the sample text. 
 
-Click on the card for the font you want to use:
+Click on the card for the font you want to use.
 
-![A screenshot of the Bangers card.](images/bangers-card.png)
+![The Bangers card.](images/bangers-card.png)
 
 Click on the `Select this style` link.
 
-![A screenshot highlighting the 'Select this style' link.](images/select-style.png)
+![The 'Select this style' link has been highlighted.](images/select-style.png)
 
-**Note** that a pane will pop in from the side that gives you the code that you need.
+**Note:** A pane will pop in from the side that gives you the code that you need.
 
-Highlight the HTML text and right click and select copy (tap and hold) to copy the HTML code:
+Highlight the HTML text and right-click and select copy (tap and hold) to copy the HTML code.
 
 ![The HTML text is highlighted.](images/html.png)
 
 Find the comment in your `index.html` document that says `<!-- Import fonts from Google -->`.
 
-Insert the HTML code that you have just copied below the comment:
+Insert the HTML code that you have just copied below the comment.
 
 --- code ---
 ---
@@ -51,17 +51,17 @@ line_highlights: 16-18
 
 --- /code ---
 
-You have now imported the fonts that you need from the Google font library. You now need to add in the correct CSS so that the web browser knows when to use this font. 
+You have imported the fonts that you need from the Google Font library. You now need to add in the correct CSS so that the web browser knows when to use this font. 
 
-Go back to the Google font library webpage and copy the CSS code. You only need the code **after** `font-family: `
+Go back to the Google Font library webpage and copy the CSS code. You only need the code **after** `font-family`. 
 
-![The CSS code ''Bangers', cursive;' is highlighted on the Google font library site.](images/css.png)
+![The CSS code ''Bangers', cursive;' is highlighted on the Google Font library site.](images/css.png)
 
-Go to your css colour palette file. This will be `default.css` or the file containing the colour palette you have chosen (for example fiesta.css).
+Go to your CSS colour palette file. This will be `default.css` or the file containing the colour palette you have chosen (for example `fiesta.css`).
 
-Find the `header-font` , `title-font` and `quote-font` variables. 
+Find the `header-font` , `title-font`, and `quote-font` variables. 
 
-**Replace** the current fonts` with your new one by deleting the existing text and pressing paste.
+**Replace** the current fonts with your new one. To do this, delete the existing text and press paste.
 
 --- code ---
 ---
