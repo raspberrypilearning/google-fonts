@@ -1,4 +1,4 @@
-Google has a free online font library with over 1400 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right font. Google Fonts then gives you the **HTML** and **CSS** code that you need to **import** the font into your website. 
+Google has a free online font library with over 1500 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right font. Google Fonts then gives you the **HTML** that you need to **import** the font into your website. 
 
 Open [fonts.google.com](https://fonts.google.com/){:target="_blank"}. The link will open in a new tab. 
 
