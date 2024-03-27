@@ -1,14 +1,20 @@
-Google has a free online font library with over 1500 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right font. Google Fonts then gives you the **HTML** that you need to **import** the font into your website. 
+Google has a free online font library with over 1600 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right font. Google Fonts then gives you the **HTML** and **CSS** that you need to **link** or **import** the font into your website. 
 
-Open [fonts.google.com](https://fonts.google.com/){:target="_blank"}. The link will open in a new tab. 
+--- task ---
+
+Open [fonts.google.com](https://fonts.google.com/){:target="_blank"}.
 
 Type some sample text in the **Preview** box.
 
 ![The Google Fonts search page. The words 'Lapis Sarawak' are in the preview box.](images/custom.png)
 
+--- /task ---
+
 **Notice** that the examples show your sample text. You can see how your words will look in all of the fonts available. 
 
 There are many different search filters to use. You can search by language, or different font properties.
+
+--- task ---
 
 Scroll down until you find a font you like. If you know the name of the font you want to use, type it in the main search box. 
 
@@ -16,31 +22,47 @@ Scroll down until you find a font you like. If you know the name of the font you
 
 **Notice** that you can now see an example of the Bangers font that has been applied to the sample text. 
 
-Click on the card for the font you want to use.
+--- /task ---
 
-![The Bangers card.](images/bangers-card.png)
+--- task ---
 
-Click on the 'Select' link (our example shows 'Select Regular 400').
+Choose your font size (this example shows 40px).
 
-![A screenshot highlights the 'Select' link.](images/select-style.png)
+--- /task ---
 
-**Notice** that a pane pops in from the side. The pane gives you the code that you need.
+--- task ---
 
-Click the copy icon to copy the HTML code.
+Click the 'Get font' button at the top right.
 
-![The HTML to copy.](images/html.png)
+You will see your selected fonts.
 
-Find the comment in your `index.html` document that says `<!-- Import fonts from Google -->`.
+![The selected fonts.](images/selected-font.png)
 
-Paste the HTML code that you have just copied below the comment.
+--- /task ---
+
+--- task ---
+
+Click the 'Get embed code' button.
+
+You can either use the `<link>` method or the `<import>` method.
+
+--- /task ---
+
+### link method
+
+![The HTML to copy.](images/link.png)
+
+--- task ---
+
+Copy and paste the HTML code inside the `<head>` tags in your HTML document.
 
 --- code ---
 ---
 language: html
-filename: index.html
-line_numbers: true
-line_number_start: 15
-line_highlights: 16-18
+filename: 
+line_numbers: 
+line_number_start: 
+line_highlights: 2-4
 ---
   <!-- Import fonts from Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,17 +71,15 @@ line_highlights: 16-18
 
 --- /code ---
 
-You have imported the fonts that you need from the Google Font library. You now need to add in the correct CSS so that the web browser knows when to use this font. 
+--- /task ---
 
-Go to your `default.css` file and find the `header-font` and `title-font` variables. 
+You need to add in the correct CSS so that the web browser knows when to use this font. 
 
-**Replace** the current font `Verdana, sans-serif;` with the relevant options for your chosen font. In our example, we use `Bangers, cursive;`.
+--- task ---
 
-Go to your CSS colour palette file. This will be `default.css` or the file containing the colour palette you have chosen (for example `fiesta.css`).
+Go to your `default.css` file and find the font variables (it may also be the file containing the colour palette you have chosen, for example `fiesta.css`). 
 
-Find the `header-font` , `title-font`, and `quote-font` variables. 
-
-**Replace** the current font options.
+Add (or replace) the code for your chosen font. In our example, we use `Bangers, cursive;`.
 
 --- code ---
 ---
@@ -75,3 +95,54 @@ line_highlights: 16-18
   --quote-font: lighter 1.5rem 'Bangers', cursive;
 
 --- /code ---
+
+--- /task ---
+
+### import method
+
+![The CSS to copy.](images/import.png)
+
+--- task ---
+
+Open `style.css`.
+
+Copy and paste the import code at the top.
+
+--- code ---
+---
+language: css
+filename: style.css
+line_numbers: 
+line_number_start: 
+line_highlights:
+---
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap')
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Open `default.css` and find the font variables (it may also be the file containing the colour palette you have chosen, for example `fiesta.css`). 
+
+Add (or replace) the code for your chosen font. In our example, we use `Bangers, cursive;`.
+
+--- code ---
+---
+language: css
+filename: default.css
+line_numbers: true
+line_number_start: 15
+line_highlights: 16-18
+---
+  --body-font: 1.1rem Verdana, sans-serif;
+  --header-font: lighter 3rem 'Bangers', cursive;
+  --title-font: lighter 2rem 'Bangers', cursive;
+  --quote-font: lighter 1.5rem 'Bangers', cursive;
+
+--- /code ---
+
+--- /task ---
+
