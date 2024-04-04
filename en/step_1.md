@@ -48,7 +48,7 @@ You can either use the `<link>` method or the `<import>` method.
 
 --- /task ---
 
-### link method
+### Link method
 
 ![The HTML to copy.](images/link.png)
 
@@ -60,9 +60,9 @@ Copy and paste the HTML code inside the `<head>` tags in your HTML document.
 ---
 language: html
 filename: 
-line_numbers: 
+line_numbers: false
 line_number_start: 
-line_highlights: 2-4
+line_highlights:
 ---
   <!-- Import fonts from Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -98,7 +98,7 @@ line_highlights: 16-18
 
 --- /task ---
 
-### import method
+### Import method
 
 ![The CSS to copy.](images/import.png)
 
