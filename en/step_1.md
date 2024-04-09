@@ -45,9 +45,10 @@ Copy and paste the HTML code inside the `<head>` tags in your HTML document.
 language: html
 filename: 
 line_numbers: 
-line_number_start: 
+line_number_start: 1
 line_highlights: 2-4
 ---
+
   <!-- Import fonts from Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
