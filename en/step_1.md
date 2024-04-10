@@ -85,6 +85,8 @@ Open `style.css`.
 
 Copy and paste the import code at the top.
 
+Make sure you add a semicolon `;` to the end of the line when you add it to your CSS file.
+
 --- code ---
 ---
 language: css
@@ -94,7 +96,7 @@ line_number_start:
 line_highlights:
 ---
 
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 --- /code ---
 
