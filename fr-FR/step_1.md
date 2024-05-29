@@ -1,44 +1,44 @@
-Google has a free online font library with over 1600 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right font. Google Fonts then gives you the **HTML** and **CSS** that you need to **link** or **import** the font into your website.
+Google propose une bibliothèque de polices en ligne gratuite avec plus de 1 600 polices au choix. Le site te permet de parcourir différentes polices en utilisant ton propre exemple de texte pour t'aider à trouver la bonne police. Google Fonts te donne ensuite le code **HTML** et le **CSS** dont tu as besoin pour **lier** ou **importer** la police dans ton site web.
 
-### Find a font
+### Trouver une police
 
-Open [fonts.google.com](https://fonts.google.com/){:target="_blank"}.
+Ouvre [fonts.google.com](https://fonts.google.com/){:target="_blank"}.
 
-Type some sample text in the **Preview** box.
+Tape un exemple de texte dans la case **Preview**.
 
-![The Google Fonts search page. The words 'Lapis Sarawak' are in the preview box.](images/custom.png)
+![La page de recherche Google Fonts. Les mots « Lapis Sarawak » apparaissent dans la fenêtre de prévisualisation.](images/custom.png)
 
-**Notice** that the examples show your sample text. You can see how your words will look in all of the fonts available.
+**Remarque** que les exemples montrent ton modèle de texte. Tu peux voir à quoi ressembleront tes mots dans toutes les polices disponibles.
 
-There are many different search filters to use. You can search by language, or different font properties.
+Il existe de nombreux filtres de recherche différents. Tu peux effectuer une recherche par langue ou par différentes propriétés de police.
 
-Scroll down until you find a font you like. If you know the name of the font you want to use, type it in the main search box.
+Fais défiler vers le bas jusqu'à ce que tu trouves une police qui te plaît. Si tu connais le nom de la police que tu veux utiliser, tape-le dans le champ de recherche principal.
 
-!['Bangers' has been typed into the search box.](images/bangers.png)
+![Le mot "Bangers" a été tapé dans le champ de recherche.](images/bangers.png)
 
-**Notice** that you can now see an example of the Bangers font that has been applied to the sample text.
+**Remarque** que tu peux maintenant voir un exemple de la police Bangers qui a été appliquée au texte de l'échantillon.
 
-### Choose your font size
+### Choisis la taille de ta police
 
-This example shows 40px.
+Cet exemple montre 40 px.
 
-### Get the embed code
+### Obtenir le code d'intégration
 
-Click the 'Get font' button at the top right.
+Clique sur le bouton « Get font » en haut à droite.
 
-You will see your selected fonts.
+Tu verras les polices que tu as sélectionnées.
 
-![The selected fonts.](images/selected-font.png)
+![Les polices sélectionnées.](images/selected-font.png)
 
-Click the 'Get embed code' button.
+Clique sur le bouton « Get embed code ».
 
-You can either use the `<link>` method or the `<import>` method.
+Tu peux utiliser la méthode `<link>` ou la méthode `<import>`.
 
-### Link method
+### Méthode de lien
 
-![The HTML to copy.](images/link.png)
+![Le code HTML à copier.](images/link.png)
 
-Copy and paste the HTML code inside the `<head>` tags in your HTML document.
+Copie et colle le code HTML à l'intérieur des balises `<head>` dans ton document HTML.
 
 ## --- code ---
 
@@ -57,11 +57,11 @@ line_highlights: 2-4
 
 \--- /code ---
 
-You need to add in the correct CSS so that the web browser knows when to use this font.
+Tu dois ajouter le CSS correct pour que le navigateur web sache quand utiliser cette police.
 
-Go to your `default.css` file and find the font variables (it may also be the file containing the colour palette you have chosen, for example `fiesta.css`).
+Va dans ton fichier `default.css` et trouve les variables de police (il peut aussi s'agir du fichier contenant la palette de couleurs que tu as choisie, par exemple `fiesta.css`).
 
-Add (or replace) the code for your chosen font. In our example, we use `Bangers, cursive;`.
+Ajoute (ou remplace) le code de la police que tu as choisie. Dans notre exemple, nous utilisons `Bangers, cursive;`.
 
 ## --- code ---
 
@@ -79,15 +79,15 @@ line_highlights: 16-18
 
 \--- /code ---
 
-### Import method
+### Méthode d'importation
 
-![The CSS to copy.](images/import.png)
+![Le CSS à copier.](images/import.png)
 
-Open `style.css`.
+Ouvre `style.css`.
 
-Copy and paste the import code at the top.
+Copie et colle le code d'importation en haut.
 
-Make sure you add a semicolon `;` to the end of the line when you add it to your CSS file.
+Assure-toi d'ajouter un point-virgule `;` à la fin de la ligne lorsque tu l'ajoutes à ton fichier CSS.
 
 ## --- code ---
 
@@ -102,9 +102,9 @@ line_highlights:
 
 \--- /code ---
 
-Open `default.css` and find the font variables (it may also be the file containing the colour palette you have chosen, for example `fiesta.css`).
+Ouvre le fichier `default.css` et trouve les variables de police (il peut aussi s'agir du fichier contenant la palette de couleurs que tu as choisie, par exemple `fiesta.css`).
 
-Add (or replace) the code for your chosen font. In our example, we use `Bangers, cursive;`.
+Ajoute (ou remplace) le code de la police que tu as choisie. Dans notre exemple, nous utilisons `Bangers, cursive;`.
 
 ## --- code ---
 
