@@ -1,44 +1,44 @@
-Google has a free online font library with over 1600 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right font. Google Fonts then gives you the **HTML** and **CSS** that you need to **link** or **import** the font into your website.
+Google heeft een gratis online lettertype bibliotheek met meer dan 1600 lettertypen om uit te kiezen. De website stelt je in staat verschillende lettertypen te bekijken met behulp van je eigen voorbeeldtekst om je te helpen de juiste lettertype te vinden. Google Fonts geeft dan de **HTML** en **CSS** die je nodig hebt om het lettertype naar je website te **linken** of te **importeren**.
 
-### Find a font
+### Zoek een lettertype
 
 Open [fonts.google.com](https://fonts.google.com/){:target="_blank"}.
 
-Type some sample text in the **Preview** box.
+Typ een voorbeeldtekst in het vak **Preview**.
 
-![The Google Fonts search page. The words 'Lapis Sarawak' are in the preview box.](images/custom.png)
+![De zoekpagina van Google Fonts. De woorden 'Lapis Sarawak' staan in het voorbeeldvenster.](images/custom.png)
 
-**Notice** that the examples show your sample text. You can see how your words will look in all of the fonts available.
+**Let op** dat de voorbeelden je voorbeeldtekst tonen. Je kunt zien hoe je woorden er in alle beschikbare lettertypen uitzien.
 
-There are many different search filters to use. You can search by language, or different font properties.
+Er zijn veel verschillende zoekfilters om te gebruiken. Je kunt zoeken op taal, of op verschillende lettertype-eigenschappen.
 
-Scroll down until you find a font you like. If you know the name of the font you want to use, type it in the main search box.
+Scroll naar beneden tot je een lettertype vindt dat je leuk vindt. Als je de naam weet van het lettertype dat je wilt gebruiken, typ het dan in het hoofdzoekvak.
 
-!['Bangers' has been typed into the search box.](images/bangers.png)
+!['Bangers' is in het zoekvak getypt.](images/bangers.png)
 
-**Notice** that you can now see an example of the Bangers font that has been applied to the sample text.
+**Merk op** dat je nu een voorbeeld van het Bangers lettertype kunt zien dat is toegepast op de voorbeeldtekst.
 
-### Choose your font size
+### Kies je lettergrootte
 
-This example shows 40px.
+Dit voorbeeld toont 40px.
 
-### Get the embed code
+### Haal de insluitcode op
 
-Click the 'Get font' button at the top right.
+Klik op de knop 'Get font' rechtsboven.
 
-You will see your selected fonts.
+Je zult de geselecteerde lettertypen zien.
 
-![The selected fonts.](images/selected-font.png)
+![De geselecteerde lettertypen.](images/selected-font.png)
 
-Click the 'Get embed code' button.
+Klik op de knop 'Get embed code'.
 
-You can either use the `<link>` method or the `<import>` method.
+Je kunt of de `<link>`-methode of de `<import>`-methode gebruiken.
 
-### Link method
+### Link-methode
 
-![The HTML to copy.](images/link.png)
+![De HTML om te kopiëren.](images/link.png)
 
-Copy and paste the HTML code inside the `<head>` tags in your HTML document.
+Kopieer en plak de HTML-code in de `<head>` tags in je HTML document.
 
 ## --- code ---
 
@@ -57,11 +57,11 @@ line_highlights: 2-4
 
 \--- /code ---
 
-You need to add in the correct CSS so that the web browser knows when to use this font.
+Je moet de juiste CSS toevoegen, zodat de webbrowser weet wanneer dit lettertype moet worden gebruikt.
 
-Go to your `default.css` file and find the font variables (it may also be the file containing the colour palette you have chosen, for example `fiesta.css`).
+Ga naar jouw `default.css`-bestand en zoek de lettertypevariabelen (het kan ook het bestand zijn dat het kleurenpalet bevat dat je hebt gekozen, bijvoorbeeld `fiesta.css`).
 
-Add (or replace) the code for your chosen font. In our example, we use `Bangers, cursive;`.
+De code voor je gekozen lettertype toevoegen (of vervangen). In ons voorbeeld gebruiken we `Bangers, cursive;`.
 
 ## --- code ---
 
@@ -79,15 +79,15 @@ line_highlights: 16-18
 
 \--- /code ---
 
-### Import method
+### Import-methode
 
-![The CSS to copy.](images/import.png)
+![De CSS die moet worden gekopieerd.](images/import.png)
 
 Open `style.css`.
 
-Copy and paste the import code at the top.
+Kopieer en plak de importcode bovenaan.
 
-Make sure you add a semicolon `;` to the end of the line when you add it to your CSS file.
+Zorg ervoor dat je een puntkomma `;` aan het einde van de regel toevoegt wanneer je het aan je CSS-bestand toevoegt.
 
 ## --- code ---
 
@@ -102,9 +102,9 @@ line_highlights:
 
 \--- /code ---
 
-Open `default.css` and find the font variables (it may also be the file containing the colour palette you have chosen, for example `fiesta.css`).
+Open `default.css` en zoek de lettertype variabelen (dit kan ook het bestand zijn met het kleurenpalet dat je hebt gekozen, bijvoorbeeld `fiesta.css`).
 
-Add (or replace) the code for your chosen font. In our example, we use `Bangers, cursive;`.
+Voeg de code voor je gekozen lettertype toe (of vervang deze). In ons voorbeeld gebruiken we `Bangers, cursive;`.
 
 ## --- code ---
 
