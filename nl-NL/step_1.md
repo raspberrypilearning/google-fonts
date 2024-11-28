@@ -49,7 +49,7 @@ line_number_start: 1
 line_highlights: 2-4
 ---
 
-  <!--- Import fonts from Google --->
+  <!--- Importeer lettertypen van Google --->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
