@@ -1,44 +1,44 @@
-Google has a free online font library with over 1600 fonts to choose from. The site allows you to browse different fonts using your own sample text to help you find the right font. Google Fonts then gives you the **HTML** and **CSS** that you need to **link** or **import** the font into your website.
+Google 有一个免费的在线字体库，拥有超过 1600 种字体可供选择。 该网站允许你使用自己的示例文本浏览不同的字体，以帮助你找到合适的字体。 然后，Google Fonts 会为你提供将字体**链接**或**导入**到你的网站所需的**HTML**和**CSS**。
 
-### Find a font
+### 查找字体
 
-Open [fonts.google.com](https://fonts.google.com/){:target="_blank"}.
+打开[fonts.google.com](https://fonts.google.com/){:target="_blank"}.
 
-Type some sample text in the **Preview** box.
+在**Preview**（预览）框中输入一些示例文本
 
-![The Google Fonts search page. The words 'Lapis Sarawak' are in the preview box.](images/custom.png)
+![Google 字体搜索页面。 预览框中有 'Lapis Sarawak' 字样。](images/custom.png)
 
-**Notice** that the examples show your sample text. You can see how your words will look in all of the fonts available.
+**注意**示例显示的是你的示例文本。 你可以看到你的文字在所有可用字体下的显示效果。
 
-There are many different search filters to use. You can search by language, or different font properties.
+有许多不同的搜索过滤器可供使用。 你可以按语言或不同的字体属性进行搜索。
 
-Scroll down until you find a font you like. If you know the name of the font you want to use, type it in the main search box.
+向下滚动直到找到你喜欢的字体。 如果你知道要使用的字体的名称，请在主搜索框中输入它。
 
-!['Bangers' has been typed into the search box.](images/bangers.png)
+!['Bangers' 已经输入到了搜索框中。](images/bangers.png)
 
-**Notice** that you can now see an example of the Bangers font that has been applied to the sample text.
+**注意**你现在可以看到已应用于示例文本的 Bangers 字体的示例。
 
-### Choose your font size
+### 选择你的字体大小
 
-This example shows 40px.
+这个示例以 40px 显示
 
-### Get the embed code
+### 获取嵌入代码
 
-Click the 'Get font' button at the top right.
+点击右上角的 “Get font” （获取字体）按钮。
 
-You will see your selected fonts.
+你将看到你选择的字体。
 
-![The selected fonts.](images/selected-font.png)
+![选定的字体。](images/selected-font.png)
 
-Click the 'Get embed code' button.
+点击“Get embed code”（获取嵌入代码）按钮。
 
-You can either use the `<link>` method or the `<import>` method.
+你可以使用`<link>` 方法或`<import>` 方法。
 
-### Link method
+### 链接方法
 
-![The HTML to copy.](images/link.png)
+![要复制的 HTML。](images/link.png)
 
-Copy and paste the HTML code inside the `<head>` tags in your HTML document.
+将 HTML 代码复制并粘贴到 HTML 文档中的 `<head>` 标签内。
 
 ## --- code ---
 
@@ -57,11 +57,11 @@ line_highlights: 2-4
 
 \--- /code ---
 
-You need to add in the correct CSS so that the web browser knows when to use this font.
+你需要添加正确的 CSS，以便让 Web 浏览器知道何时使用此字体。
 
-Go to your `default.css` file and find the font variables (it may also be the file containing the colour palette you have chosen, for example `fiesta.css`).
+转到您的 `default.css` 文件并找到字体变量（它也可能是包含你选择的调色板的文件，例如 `fiesta.css`）。
 
-Add (or replace) the code for your chosen font. In our example, we use `Bangers, cursive;`.
+添加（或替换）你选择的字体的代码。 在我们的例子中，我们使用 `Bangers, cursive;` 。
 
 ## --- code ---
 
@@ -79,15 +79,15 @@ line_highlights: 16-18
 
 \--- /code ---
 
-### Import method
+### 导入方法
 
-![The CSS to copy.](images/import.png)
+![要复制的 CSS。](images/import.png)
 
-Open `style.css`.
+打开 `style.css`。
 
-Copy and paste the import code at the top.
+复制并粘贴顶部的导入代码。
 
-Make sure you add a semicolon `;` to the end of the line when you add it to your CSS file.
+将其添加到 CSS 文件时，请确保在行尾添加分号 `;`。
 
 ## --- code ---
 
@@ -102,9 +102,9 @@ line_highlights:
 
 \--- /code ---
 
-Open `default.css` and find the font variables (it may also be the file containing the colour palette you have chosen, for example `fiesta.css`).
+打开 `default.css` 并找到字体变量(它也可能是包含你选择的调色板的文件，例如 `fiesta.css`)。
 
-Add (or replace) the code for your chosen font. In our example, we use `Bangers, cursive;`.
+添加（或替换）你选择的字体的代码。 在我们的例子中，我们使用 `Bangers, cursive;` 。
 
 ## --- code ---
 
